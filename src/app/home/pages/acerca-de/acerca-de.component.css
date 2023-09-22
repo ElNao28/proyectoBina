@@ -1,0 +1,7 @@
+img{
+  max-width: 50%;
+}
+.img-user{
+  display: flex;
+  justify-content: center;
+}
