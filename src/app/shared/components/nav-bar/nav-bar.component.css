@@ -2,3 +2,10 @@
   color: white;
   font-size: 22px;
 }
+.nav-item{
+  border-radius: 5px;
+}
+.nav-item:hover{
+  background-color: rgb(60, 186, 236);
+  border-radius: 5px;
+}

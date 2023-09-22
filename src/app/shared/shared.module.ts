@@ -1,18 +1,32 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { AcercaDeComponent } from './pages/acerca-de/acerca-de.component';
+import { AvisoPrivacidadComponent } from './pages/aviso-privacidad/aviso-privacidad.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { RouterModule } from '@angular/router';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
 @NgModule({
   declarations: [
-    NavBarComponent
+    NavBarComponent,
+    AcercaDeComponent,
+    AvisoPrivacidadComponent,
+    InicioComponent,
+    FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[
-    NavBarComponent
+    NavBarComponent,
+    AcercaDeComponent,
+    AvisoPrivacidadComponent,
+    InicioComponent,
+    FooterComponent
   ],
 })
 export class SharedModule { }

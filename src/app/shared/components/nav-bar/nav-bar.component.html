@@ -1,19 +1,18 @@
-<nav class="navbar navbar-expand-lg bg-primary p-3">
+<nav class="navbar navbar-expand-lg bg-primary p-2">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Logo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <ul class="navbar-nav mb-lg-0"> <!-- Deja la lista sin clases de alineación -->
+        <li class="nav-item nav-link">
+          <a class="navbar-brand" routerLink="inicio">Inicio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Terminos y condiciones</a>
+        <li class="nav-item nav-link">
+          <a class="navbar-brand" routerLink="aviso-de">Aviso de privacidad</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Acerca de</a>
+        <li class="nav-item nav-link">
+          <a class="navbar-brand" routerLink="acerca-de">Acerca de</a>
         </li>
       </ul>
     </div>
