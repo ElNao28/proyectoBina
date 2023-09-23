@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+footer{
+  text-align: center;
+  background-color: rgb(46, 45, 45);
+  color: aliceblue;
+}
+.redes-sociales {
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociales img {
+  width: 30px;
+  height: 30px;
+}

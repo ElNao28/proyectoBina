@@ -1,11 +1,18 @@
-.navbar a{
-  color: white;
-  font-size: 22px;
-}
-.nav-item{
-  border-radius: 5px;
+/* .nav-position{
+  display: flex;
+  justify-content: end;
+} */
+.a-nav a{
+  color:#fdfdfd;
+  font-size: 24px;
 }
 .nav-item:hover{
-  background-color: rgb(60, 186, 236);
-  border-radius: 5px;
+  background-color: rgb(90, 240, 123);
+  border-radius: 9px;
+}
+.dropdown-menu{
+  background-color: rgb(128, 209, 141);
+}
+.dropdown-menu a{
+  color: rgb(255, 255, 255);
 }
