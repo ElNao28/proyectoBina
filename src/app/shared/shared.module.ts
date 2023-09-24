@@ -5,9 +5,6 @@ import { AcercaDeComponent } from './pages/acerca-de/acerca-de.component';
 import { AvisoPrivacidadComponent } from './pages/aviso-privacidad/aviso-privacidad.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { RouterModule } from '@angular/router';
-import { FooterComponent } from './components/footer/footer.component';
-
-
 
 @NgModule({
   declarations: [
@@ -15,7 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AcercaDeComponent,
     AvisoPrivacidadComponent,
     InicioComponent,
-    FooterComponent
+
   ],
   imports: [
     CommonModule,
@@ -26,7 +23,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AcercaDeComponent,
     AvisoPrivacidadComponent,
     InicioComponent,
-    FooterComponent
+
   ],
 })
 export class SharedModule { }
