@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './shared/pages/inicio/inicio.component';
 import { AcercaDeComponent } from './shared/pages/acerca-de/acerca-de.component';
 import { AvisoPrivacidadComponent } from './shared/pages/aviso-privacidad/aviso-privacidad.component';
-import { ListProductsComponent } from './products/components/list-products/list-products.component';
+import { ProductsListComponent } from './products/pages/products-list/products-list.component';
 
 const routes: Routes = [
   {
@@ -20,7 +20,7 @@ const routes: Routes = [
   },
   {
     path:'products',
-    component: ListProductsComponent
+    component: ProductsListComponent
   },
   {
     path:'**',

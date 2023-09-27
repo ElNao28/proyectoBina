@@ -1,0 +1,15 @@
+img{
+  max-width: 100px;
+  margin-top: 10%;
+}
+.img-product{
+  display: flex;
+  justify-content: center;
+}
+.hover-elevate {
+  transition: transform 0.3s ease;
+}
+
+.hover-elevate:hover {
+  transform: translateY(-10px);
+}

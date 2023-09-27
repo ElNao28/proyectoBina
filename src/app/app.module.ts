@@ -11,7 +11,6 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    ListProductsComponent,
   ],
   imports: [
     BrowserModule,
