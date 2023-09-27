@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
 
+
   ],
   imports: [
     CommonModule
@@ -12,4 +13,4 @@ import { CommonModule } from '@angular/common';
 
   ]
 })
-export class HomeModule { }
+export class ProductsModule { }

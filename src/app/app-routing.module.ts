@@ -3,8 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './shared/pages/inicio/inicio.component';
 import { AcercaDeComponent } from './shared/pages/acerca-de/acerca-de.component';
 import { AvisoPrivacidadComponent } from './shared/pages/aviso-privacidad/aviso-privacidad.component';
-
-
+import { ListProductsComponent } from './products/components/list-products/list-products.component';
 
 const routes: Routes = [
   {
@@ -20,9 +19,14 @@ const routes: Routes = [
     component: AvisoPrivacidadComponent
   },
   {
+    path:'products',
+    component: ListProductsComponent
+  },
+  {
     path:'**',
     redirectTo: 'inicio'
   },
+
 ];
 
 @NgModule({
