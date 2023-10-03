@@ -1,13 +1,29 @@
-<div class="container row m-3">
-  <div *ngFor="let item of products" class="card col-md-3 m-4 hover-elevate" style="width: 18rem;">
-    <div class="img-product">
-      <img [src]="item.image" class="card-img-top mb-3" alt="...">
-    </div>
-    <ul class="list-group list-group-flush">
-      <a class="card-title nav-link mt-3" href="aviso-de">{{item.title}}</a>
-      <hr>
-      <li class="list-group-item"><strong>Categoria: </strong>{{item.category}}</li>
-      <li class="list-group-item"><strong>Rating: </strong>{{item.rating.rate}}</li>
+<div class="productGeneral">
+  <div>
+    <ul>
+      <li>Categorias:</li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
     </ul>
+  </div>
+  <div class="container row m-3 bg-black">
+    <div *ngFor="let item of products" class="card col-md- m-4 hover-elevate" style="width: 18rem;">
+      <div class="img-product">
+        <img [src]="item.image" class="card-img-top mb-3" alt="...">
+      </div>
+      <ul class="list-group list-group-flush">
+        <a class="card-title nav-link mt-3" href="/products/by/{{item.id}}">{{item.title}}</a>
+        <hr>
+        <li class="list-group-item"><strong>Categoria: </strong>{{item.category}}</li>
+        <li class="list-group-item"><strong>Rating: </strong>{{item.rating.rate}}</li>
+      </ul>
+    </div>
   </div>
 </div>

@@ -1,0 +1,14 @@
+<div class="container mt-5">
+  <div class="product">
+    <div class="imgProduct m-2">
+      <img [src]="productId.image" [alt]="productId.title" />
+    </div>
+    <div class="details m-3">
+      <h3>{{ productId.title }}</h3>
+      <p>Precio: {{ productId.price }}</p>
+      <p>Categoria: {{ productId.category }}</p>
+      <p>Rating: {{ productId.rating.rate }}</p>
+      <span><p>{{productId.description}}</p></span>
+    </div>
+  </div>
+</div>

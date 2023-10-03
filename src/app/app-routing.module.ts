@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './shared/pages/inicio/inicio.component';
 import { AcercaDeComponent } from './shared/pages/acerca-de/acerca-de.component';
 import { AvisoPrivacidadComponent } from './shared/pages/aviso-privacidad/aviso-privacidad.component';
-import { ProductsListComponent } from './products/pages/products-list/products-list.component';
 
 const routes: Routes = [
   {
@@ -20,7 +19,7 @@ const routes: Routes = [
   },
   {
     path:'products',
-    component: ProductsListComponent
+    loadChildren:()=> import('./products/products.routing.module').then(m=>m.ProductsRoutingModule)
   },
   {
     path:'**',

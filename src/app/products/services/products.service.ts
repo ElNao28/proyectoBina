@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, tap, map, catchError, of } from 'rxjs';
-import { Products } from '../interfaces/Products';
+import { Product, Products } from '../interfaces/Products';
 
 
 @Injectable({
@@ -17,4 +17,8 @@ export class ProductsService {
    return this.http.get<Products[]>(this.url)
   }
 
+  getProductById(id:string):Observable<Product>{
+    const urlApi = `${this.url}/${id}`;
+    return this.http.get<Products>(urlApi)
+  }
 }
