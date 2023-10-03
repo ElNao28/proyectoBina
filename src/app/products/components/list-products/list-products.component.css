@@ -4,6 +4,10 @@ img{
 }
 .productGeneral{
   display: flex;
+  background-color: rgb(228, 224, 224);
+}
+.container{
+  background-color: white;
 }
 .img-product{
   display: flex;
@@ -16,9 +20,9 @@ img{
 .hover-elevate:hover {
   transform: translateY(-10px);
 }
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+li{
+  list-style: none;
+}
+.list{
+  margin-right: 5%;
 }
